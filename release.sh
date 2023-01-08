@@ -1,7 +1,7 @@
-#!/bin/sh
+#
 DSK=ClockSP5.ssd
 BEEB=../MMB_Utils/beeb
-BASICTOOL=../basictool/basictool 
+BASICTOOL=../basictool/basictool
 rm -f $DSK
 echo 'CHAIN"ClockSP"' > !BOOT.SRC
 tr '\012' '\015' < !BOOT.SRC >!BOOT

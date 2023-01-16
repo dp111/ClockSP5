@@ -29,8 +29,8 @@ Z% is broken up into nibbles &dcba NB &0211 is default option
 *             4 Force BASIC 4
 *             5 Force BASIC 4r32
 *       c = number of iterations to run for - 1 ( 0 = 1 iterations)
-*       b =  0 Don't use
-*            1 used irq enabled calibration data.
+*       b =  0 Don't use irq enabled calibration data.
+*            1 use irq calibration data.
 *            +8 print internal debug / calibration data
 *       a =  0 disable interrupts for repeatable results
 *            1 don't disable interrupts

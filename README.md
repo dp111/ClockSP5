@@ -21,7 +21,7 @@ Simply RUN the program. The longer it runs the more accurate the results are.
 
 At line 20 is a variable Z% which is used to configure specific usage.
 
-*Z% is broken up into nibbles &dcba NB &0311 is default option
+Z% is broken up into nibbles &dcba NB &0211 is default option
 *      d = Specifies which version of basic the results are compared to
 *             0 detect current version of basic on a 6502 machine or select BASICII on non 6502 machine
 *             2 Force BASIC II

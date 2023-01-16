@@ -21,19 +21,19 @@ Simply RUN the program. The longer it runs the more accurate the results are.
 
 At line 20 is a variable Z% which is used to configure specific usage.
 
-Z% is broken up into nibbles &dcba NB &0311 is default option
-      d = Specifies which version of basic the results are compared to
-             0 detect current version of basic on a 6502 machine or select BASICII on non 6502 machine
-             2 Force BASIC II
-             3 Force BASIC 3 not supported yet
-             4 Force BASIC 4
-             5 Force BASIC 4r32
-       c = number of iterations to run for - 1 ( 0 = 1 iterations)
-       b =  0 Don't use
-            1 used irq enabled calibration data.
-            +8 print internal debug / calibration data
-       a =  0 disable interrupts for repeatable results
-            1 don't disable interrupts
+*Z% is broken up into nibbles &dcba NB &0311 is default option
+*      d = Specifies which version of basic the results are compared to
+*             0 detect current version of basic on a 6502 machine or select BASICII on non 6502 machine
+*             2 Force BASIC II
+*             3 Force BASIC 3 not supported yet
+*             4 Force BASIC 4
+*             5 Force BASIC 4r32
+*       c = number of iterations to run for - 1 ( 0 = 1 iterations)
+*       b =  0 Don't use
+*            1 used irq enabled calibration data.
+*            +8 print internal debug / calibration data
+*       a =  0 disable interrupts for repeatable results
+*            1 don't disable interrupts
 
 # Building
 

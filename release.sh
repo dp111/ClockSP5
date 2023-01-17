@@ -11,3 +11,4 @@ $BEEB title $DSK "ClockSP5"
 $BEEB putfile $DSK !BOOT
 $BEEB putfile $DSK ClockSP5
 rm '!BOOT'
+rm ClockSP5
